@@ -1,4 +1,4 @@
-connection: "bq-looker-datablocks"
+connection: "bigquery"
 
 # include all the BQ view files
 include: "bigquery.explore"
