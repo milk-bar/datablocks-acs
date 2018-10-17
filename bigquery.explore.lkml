@@ -6,7 +6,7 @@ explore: fast_facts {
 
   join: block_group_facts {
     from: bq_block_group_facts
-    view_label: "Fast Facts"
+    view_label: "Demographic Data"
     sql_on: ${fast_facts.block_group} = ${block_group_facts.logrecno_bg_map_block_group};;
     relationship: one_to_one
   }
